@@ -7,21 +7,8 @@ const toObject = (value: JSONValue, fallback = {}) => (value ?? fallback) as JSO
 const rootValue = toObject(toObject(MarkEdit.userSettings)['extension.markeditThemeGruvbox']);
 const enabledMode = (rootValue.enabledMode ?? 'both') as string;
 
-const lightTheme: CustomTheme = {
-  extension: gruvboxLight,
-  colors: {
-    accentColor: '#79740e',
-    syntaxMarker: '#076678',
-  },
-};
-
-const darkTheme: CustomTheme = {
-  extension: gruvboxDark,
-  colors: {
-    accentColor: '#b8bb26',
-    syntaxMarker: '#83a598',
-  },
-};
+const lightTheme: CustomTheme = { extension: gruvboxLight };
+const darkTheme: CustomTheme = { extension: gruvboxDark };
 
 overrideThemes({
   light: ['both', 'light'].includes(enabledMode) ? lightTheme : undefined,
