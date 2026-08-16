@@ -8,7 +8,7 @@ To customize colors, see [Customization](https://github.com/MarkEdit-app/MarkEdi
 
 ## Installation
 
-Copy [dist/markedit-theme-gruvbox.js](dist/markedit-theme-gruvbox.js?raw=true) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
+Install this extension from the [MarkEdit Extension Registry](https://markedit-app.github.io/extensions/#markedit-theme-gruvbox).
 
 You can also run `yarn install && yarn build` to build and deploy the script.
 
