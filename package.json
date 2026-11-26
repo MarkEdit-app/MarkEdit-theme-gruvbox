@@ -1,6 +1,6 @@
 {
   "name": "markedit-theme-gruvbox",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Gruvbox theme for MarkEdit.",
   "scripts": {
     "build": "vite build",
